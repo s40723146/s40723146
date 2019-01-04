@@ -23,13 +23,9 @@
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
-<v t="leo.20181104161657.1"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11"><vh>快捷鍵</vh>
+<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
-</v>
-<v t="leo.20181104153957.1" a="E"><vh>四</vh>
-<v t="leo.20181104153957.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
@@ -128,8 +124,7 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall s40723146 
-## 分組網際簡報
+<t tx="leo.20180827201621.10">## 2018Fall 分組網際簡報
 
 ### 虎科大機械設計工程系
 
@@ -137,7 +132,7 @@ vertical: body pane on the botton</t>
 Created by [KMOLab](http://lab.kmol.info/)
 &lt;/small&gt;
 
-[2018 Fall 分組網誌](https://s40723146.github.io/s40723146/blog/index.html)
+[2018 Fall 分組網誌](./../blog/index.html)
 
 
 </t>
@@ -330,23 +325,6 @@ make.start()
 
 
 						
-</t>
-<t tx="leo.20181104153957.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20181104153957.2"># 四種語言
-## 計算機 網路 英文 數學
-
-</t>
-<t tx="leo.20181104161657.1">[個人倉儲](https://s40723146.github.io/s40723146/content/index.html)
-
-
 </t>
 </tnodes>
 </leo_file>
