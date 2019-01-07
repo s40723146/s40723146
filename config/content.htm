@@ -45,11 +45,11 @@ function doSave(storage_id, filename){
 <script type="text/python3">
 from browser import document as doc
 import ace
-
 # Brython 3.3.4 內建的 container 名稱為  'container' 且 turtle 輸出為 svg 必須使用 div 訂定 id
 Ace = ace.Editor(editor_id="kw_editor", console_id="kw_console", container_id="kw__container", storage_id="kw_py_src" )
 
 Ace.editor.setValue("""# 定義算式
+
 def add(x, y):
    return x + y
    
@@ -61,12 +61,16 @@ def multiply(x, y):
 
 def divide(x, y):
    return x / y
-   
+
+#輸入數字及算式
+
 num1 = int(input("输入第一个数字: "))
 
 choice = input("输入你選擇的算式(+/-/*//):")
 
 num2 = int(input("输入第二个数字: "))
+
+#運算與結果
 
 if choice == '+':
    print(num1,"+",num2,"=", add(num1,num2))
@@ -96,6 +100,13 @@ doc['kw_clear_console'].bind('click', Ace.clear_console)
 <p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
 <form><label>Filename: <input id="kw_filename" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src', 'kw_filename');" type="submit" value="Save"/></form>
 <p><button id="kw_run">Run</button> <button id="kw_show_console">Output</button> <button id="kw_clear_console">清除</button><button onclick="window.location.reload()">Reload</button></p>
-<div style="width: 300px; height: 100px;"><textarea autocomplete="off" id="kw_console"></textarea></div>
-<div id="brython_div"></div>
-<p></p>
+<div style="width: 300px; height: 100px;"><textarea autocomplete="off" id="kw_console" style="margin: 0px; width: 285px; height: 69px;"></textarea></div>
+<h1 style="width: 300px; height: 100px;">程式</h1>
+<script type="text/python3">
+from tkinter
+import tkinter
+mainWin = tkinter.Tk()
+mainWin.title("Hello 雲林SONG")
+mainWin.geometry("320x240")
+mainWin.mainloop()
+<script type="text/python3"></script>
